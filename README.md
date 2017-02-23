@@ -6,6 +6,7 @@ It's original aim is to allow a report in a Tabular model to be filtered by data
 It works by taking a category and a measure.  Like a table, it computes the measure value for each category value, but instead of displaying each line it only displays the distinct measure values.  When you select one or more measure values it then acts like a regular category filter would if you had selected all of the individual category values that match the selected measure values.
 
 This accomplishes the original aim by allowing the developer to define a measure in DAX that evaluates to "Is Me" when there is a single worker in the current context and that user is the user running the report.  As an example, the DAX for a simple version of this is as follows:
+
 IF(	COUNTROWS('Worker')=1 && FIRSTNONBLANK('Worker'[User Id],1) = USERNAME(),
     "Is Me",
     BLANK()
