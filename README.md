@@ -1,9 +1,10 @@
 # MeasureSlicer
+
+![alt tag](https://raw.githubusercontent.com/lkubat/MeasureSlicer/master/assets/screenshot.png)
+
 Measure Slicer is a visual that lets you slice categories by measure value instead of category.
 
 It's original aim is to allow a report in a Tabular model to be filtered by data relevant to the current user without having to impose the broad security restriction of row level security.
-
-![alt tag](https://raw.githubusercontent.com/lkubat/MeasureSlicer/master/assets/screenshot.png)
 
 It works by taking a category and a measure.  Like a table, it computes the measure value for each category value, but instead of displaying each line it only displays the distinct measure values.  When you select one or more measure values it then acts like a regular category filter would if you had selected all of the individual category values that match the selected measure values.
 
