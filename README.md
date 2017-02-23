@@ -1,6 +1,6 @@
 # MeasureSlicer
 
-![alt tag](https://raw.githubusercontent.com/lkubat/MeasureSlicer/master/assets/screenshot.png)
+![alt tag](https://raw.githubusercontent.com/lkubat/MeasureSlicer/master/assets/thumbnail.png)
 
 Measure Slicer is a visual that lets you slice categories by measure value instead of category.
 
