@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES5",
+    "sourceMap": true,
+    "out": "./.tmp/build/measureSlicer.js"
+  },
+  "files": [
+    ".api/v1.4.0/PowerBI-visuals.d.ts",
+    "typings/index.d.ts",
+    "node_modules/d3/d3.min.js",
+    "src/measureSlicer.ts",
+    "src/objectEnumerationUtility.ts"
+  ]
+}

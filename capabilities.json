@@ -1,0 +1,52 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Category Data",
+      "name": "category",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Measure Data",
+      "name": "measure",
+      "kind": "Measure"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "conditions": [
+          { "category": { "max": 1 }, "measure": { "max": 1 } }
+      ],
+      "categorical": {
+        "categories": {
+          "for": {
+            "in": "category"
+          }
+        },
+        "values": {
+          "select": [
+            {
+              "bind": {
+                "to": "measure"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "generalOptions": {
+      "displayName": "General",
+      "properties": {
+        "sizeOfText": {
+          "displayName": "Text Size",
+          "type": { "numeric": true }
+        },
+        "defaultSelection": {
+          "displayName": "Default Selection",
+          "type": { "text": true }
+        }
+      }
+    }
+  }
+}

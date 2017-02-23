@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "measureSlicer",
+    "displayName": "Measure Slicer",
+    "guid": "PBI_CV_7C9E2F85_7EFC_44EF_8632_1D27FE76F639",
+    "visualClassName": "MeasureSlicer",
+    "version": "1.0.0",
+    "description": "The measure slicer was built to allow a report to be filtered down to data related to the user running the report without locking the entire cube down via row level security.  It provides this functionality in a general way so it can be used for other purposes.  It takes a single category and a measure, computes the measure for each category, and displays only the distinct non-blank measure values computed.  Then when a measure value is selected, it slices the report on all the category values whose measure value computed to the one selected.  If you then create a measure on your worker dimension that evaluates to 'Is Me' if the worker matches the current user, you can use this to filter a report on only the workers who 'Is Me'.  Obviously this can be used for other purposes as well.",
+    "supportUrl": "http://community.powerbi.com/",
+    "gitHubUrl": "https://github.com/lkubat/MeasureSlicer"
+  },
+  "apiVersion": "1.4.0",
+  "author": {
+    "name": "Luke Kubat",
+    "email": "lkubat@braunintertec.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json"
+}
