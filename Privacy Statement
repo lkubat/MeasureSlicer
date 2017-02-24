@@ -1,0 +1,4 @@
+To the extent that the Measure Slicer extends Microsoft's Power BI custom visual API, it does not 
+store any user data locally or transfer any data to the developers or any third party.  The developers 
+of the Measure Slicer cannot guarantee that data is not collected or transferred by the custom visual 
+API itself, but we do affirm that we are not storing or transferring any additional data ourselves.
